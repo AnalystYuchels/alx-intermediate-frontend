@@ -1,0 +1,47 @@
+# SASS Installation Steps:
+
+This documentation explains how I installed sass (version 3.7.4) using node.js and npm on my local machine.
+
+
+## Prerequisites:
+
+Before installing sass, make sure the following tools are installed:
+
+1. **Node.js:** Sass installation via npm requires Node.js. You can check if node.js is installed by running the code below in your terminal:
+
+   node -v
+
+
+   If it’s not installed, you can download and install it from [https://nodejs.org](https://nodejs.org).
+
+2. **npm (Node Package Manager):** npm comes bundled with node.js. To confirm it's installed, run:
+
+   npm -v
+  
+
+## Installation Steps:
+
+1. Open your terminal and navigate to your project folder:
+
+cd alx-intermediate-frontend/0x03-sass_scss
+
+
+2. Initialize npm in your project (if not already done): This creates a `package.json` file that will manage your project's dependencies.
+
+npm init -y
+
+
+3. Install Sass version 3.7.4: Use the command below to install the specified version of Sass:
+
+npm install sass@3.7.4
+
+This will add Sass as a dependency in your `package.json` and store it in the `node_modules` folder.
+
+
+## Verifying the Installation:
+
+After installation, you can verify that sass has been successfully installed by checking the version:
+
+npx sass --version
+
+If the output shows **3.7.4**, the installation was successful.
