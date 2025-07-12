@@ -39,6 +39,7 @@ By the end of this project, you will be able to explain and implement:
 
 # 📁 Project Structure
 
+```
 
 0x04-TypeScript/
 ├── README.md
@@ -83,6 +84,8 @@ By the end of this project, you will be able to explain and implement:
 ├── package.json
 ├── tsconfig.json
 └── webpack.config.js
+
+```
 
 
 # 🎯 Tasks Overview
